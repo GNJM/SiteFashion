@@ -1,0 +1,65 @@
+body {
+	background-image: url("offWhiteLeatherTexture.jpg");
+}
+
+div {
+	border: 1px solid red;
+}
+
+div.header, div.footer {
+	width: 100%;
+}
+
+/* Header */
+.headercon, .footercon {
+	background-color: linen;
+	list-style: none;
+	text-align: center;
+	border: 1px solid blue;
+	border-radius: 20px;
+	width: 100px;
+	margin: auto;
+	height: 20px;
+
+/*	Above is the Short-Hand for margin: Top Right Bottom Left
+	margin-top: 0px;
+	margin-right: 60px;
+	margin-bottom:10px;
+	margin-left: 60px;
+*/
+
+}
+
+
+/* Main */
+.info {
+	margin: auto;
+	height: 400px;
+	width: 90%;
+}
+
+.carasel {
+	margin: auto;
+	height: 300px;
+	width: 90%;
+}
+
+.men {
+	margin: auto;
+	height: 800px;
+	width: 45%;
+}
+
+.ladies {
+	margin: auto;
+	height: 800px;
+	width: 45%;
+}
+
+
+
+/* Footer */
+.footer {
+	list-style: none;
+	text-align: center;
+}
