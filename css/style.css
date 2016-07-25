@@ -17,9 +17,10 @@ div.header, div.footer {
 	text-align: center;
 	border: 1px solid blue;
 	border-radius: 20px;
-	width: 100px;
-	margin: auto;
 	height: 20px;
+	width: 100px;
+	margin: 2px auto;
+	padding: 1px;
 
 /*	Above is the Short-Hand for margin: Top Right Bottom Left
 	margin-top: 0px;
@@ -56,6 +57,14 @@ div.header, div.footer {
 	width: 45%;
 }
 
+p { 
+	margin: 10px;
+	text-align: justify;
+}
+
+p.article {
+	text-indent: 10px;
+}
 
 
 /* Footer */
