@@ -1,5 +1,7 @@
 body {
 	background-image: url("offWhiteLeatherTexture.jpg");
+	font-family: Georgia, "Time Roman New", Arial;
+	font-size: 100%;
 }
 
 div {
@@ -21,6 +23,7 @@ div.header, div.footer {
 	width: 100px;
 	margin: 2px auto;
 	padding: 1px;
+	font-variant: small-caps;
 
 /*	Above is the Short-Hand for margin: Top Right Bottom Left
 	margin-top: 0px;
@@ -29,6 +32,32 @@ div.header, div.footer {
 	margin-left: 60px;
 */
 
+}
+
+/* This will affect the links on the page 
+	When setting the style for several link states, there are some order rules:
+	a:hover MUST come after a:link and a:visited
+	a:active MUST come after a:hover
+*/
+
+/* unvisited links */
+a:link {
+	color: red;
+}
+
+/* visited link */
+a:visited {
+	color: grey;
+}
+
+/*mouse over link */
+a:hover {
+	color: white;
+}
+
+/* selected link */
+a:active {
+	color: black;
 }
 
 
@@ -49,12 +78,14 @@ div.header, div.footer {
 	margin: auto;
 	height: 800px;
 	width: 45%;
+	font-weight: lighter;
 }
 
 .ladies {
 	margin: auto;
 	height: 800px;
 	width: 45%;
+	font-weight: lighter;
 }
 
 p { 
